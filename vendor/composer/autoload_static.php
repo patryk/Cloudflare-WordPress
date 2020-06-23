@@ -35,6 +35,7 @@ class ComposerStaticInit08b7fe62c42ceedbe4992c5aa654e1de
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
+            'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 55,
         ),
         'C' => 
         array (
@@ -85,6 +86,10 @@ class ComposerStaticInit08b7fe62c42ceedbe4992c5aa654e1de
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
+        ),
+        'Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dealerdirect/phpcodesniffer-composer-installer/src',
         ),
         'CF\\' => 
         array (
