@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6064d5a27568081be9ea69c5d8bc3e7",
+    "content-hash": "e8e439075f125e0ddfce6b6d68919437",
     "packages": [
         {
             "name": "cloudflare/cf-ip-rewrite",
@@ -383,28 +383,26 @@
         },
         {
             "name": "johnkary/phpunit-speedtrap",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnkary/phpunit-speedtrap.git",
-                "reference": "76a26f8a903a9434608cdad2b41c40cd134ea326"
+                "reference": "f7cfe17c5a7076ed0ccca5450fe3bb981ec56361"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnkary/phpunit-speedtrap/zipball/76a26f8a903a9434608cdad2b41c40cd134ea326",
-                "reference": "76a26f8a903a9434608cdad2b41c40cd134ea326",
+                "url": "https://api.github.com/repos/johnkary/phpunit-speedtrap/zipball/f7cfe17c5a7076ed0ccca5450fe3bb981ec56361",
+                "reference": "f7cfe17c5a7076ed0ccca5450fe3bb981ec56361",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*|~4.0"
+                "php": ">=5.6",
+                "phpunit/phpunit": ">=4.7,<6.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -429,7 +427,7 @@
                 "profile",
                 "slow"
             ],
-            "time": "2015-09-13T19:01:00+00:00"
+            "time": "2017-03-25T17:14:26+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1159,6 +1157,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2017-12-04T08:55:13+00:00"
         },
         {
